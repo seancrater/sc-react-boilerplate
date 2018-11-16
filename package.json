@@ -1,0 +1,53 @@
+{
+  "name": "sc-react-boilerplate",
+  "version": "1.0.0",
+  "description": "My boilerplate for React/Redux/GraphQL/Emotion SPAs",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-emotion": "^9.2.11",
+    "babel-preset-airbnb": "^3.0.1",
+    "emotion": "^9.2.12",
+    "eslint": "^5.9.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-emotion": "^9.2.6",
+    "eslint-plugin-react": "^7.11.1",
+    "graphql": "^14.0.2",
+    "jest": "^23.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-emotion": "^9.2.12",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^4.3.12",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --mode development",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seancrater/sc-react-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "graphql",
+    "emotion"
+  ],
+  "author": "Sean Crater",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seancrater/sc-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/seancrater/sc-react-boilerplate#readme"
+}
